@@ -1,0 +1,64 @@
+section {
+  background-color: lightgrey;
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 1fr 1fr 1fr;
+  border: 2px solid black;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin: 25px;
+  grid-row-gap: 12px;
+}
+
+ .intern {
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   border: 2px solid black;
+   justify-content: space-around;
+ }
+
+ .intern >div {
+    background: #eee;
+    padding-top: 32px;
+
+ }
+ .intern >div:first-child {
+   padding-top: 32px;
+ }
+
+ h1 {
+   text-align: center;
+ }
+
+.description {
+  padding-top: 43px;
+  font-size: 20px;
+  position: relative;
+  left: 13px;
+}
+.link {
+  position: relative;
+  left: 13px;
+}
+.button {
+  position: relative;
+  top:72px;
+  left: 109px;
+  font-size: 20px;
+}
+
+img {
+  position: relative;
+  bottom: 10px;
+  left: 60px;
+  left
+}
+
+p {
+  font-size: 23px;
+}
+.name {
+  position: relative;
+  left: 130px;
+  left: 80px;
+  top: 2px;
+}
